@@ -203,7 +203,6 @@ ol {
   display: flex;
   flex-direction: column;
   width: 399px;
-  height: 534px;
   gap: 26px;
 }
 
