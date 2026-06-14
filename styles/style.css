@@ -8,14 +8,14 @@ html {
   block-size: 100%;
 }
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
+.page { 
+  inline-size: 1200px; 
+  block-size: 100%; 
+  margin: auto; 
+  color: #fff; 
+  font-family: 'Fira Sans Condensed', sans-serif; 
+  font-size: 18px; 
+  background-color: #1b1919; 
 }
 
 h1,
@@ -205,13 +205,13 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 399px;
   height: 534px;
   gap: 26px;
 }
 
 .title {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 0.94;
@@ -224,6 +224,7 @@ ol {
 
 .content__list-container {
   position: relative;
+  height: 298px;
   overflow: auto;
   flex-grow: 1;
 }
@@ -274,12 +275,11 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
-  
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -287,11 +287,9 @@ ol {
 
 .content__video-card-description {
   line-height: 0.9;
-  
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  
   overflow: hidden;
 }
 
@@ -299,7 +297,6 @@ ol {
   width: 194px;
   min-width: 194px;
   height: 103px;
-  
   object-fit: cover;
   object-position: center;
 }
